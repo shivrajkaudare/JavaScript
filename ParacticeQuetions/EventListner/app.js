@@ -1,6 +1,5 @@
 let btn = document.querySelector("button");
 
-
 btn.addEventListener("click", function(){
     let h3 = document.querySelector("h3");
     let randomColor = getRandomColor();
@@ -12,7 +11,6 @@ btn.addEventListener("click", function(){
     console.log("color updated");
 
 });
-
 
  function getRandomColor() {
 
