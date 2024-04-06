@@ -25,3 +25,5 @@
 
 
   demo();
+
+  // Dealing With rejections using try catch.
