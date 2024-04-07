@@ -1,5 +1,5 @@
-// fetch request using Promises.
 
+/**************** fetch request using Promises. ******************************************/ 
 let url = "https://catfact.ninja/fact";
 
 fetch(url) // returns promise in the form of responce
@@ -17,7 +17,7 @@ fetch(url) // returns promise in the form of responce
 
 
 
-// if we want to give multiple request.
+/********************** if we want to give multiple request.  ***************************/ 
 
 fetch(url).then((responce) =>{
      console.log(responce);

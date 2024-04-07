@@ -1,5 +1,5 @@
   
-  // async- await 
+  /******************** async- await *************************/ 
 
   let h1 = document.querySelector('h1');
 
@@ -26,4 +26,4 @@
 
   demo();
 
-  // Dealing With rejections using try catch.
+  // Dealing With rejections/errors using try catch.
