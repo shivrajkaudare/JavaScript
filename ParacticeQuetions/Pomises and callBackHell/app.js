@@ -25,7 +25,7 @@
 // );
 
 
-///---- Promises ----
+/************** Promises **********************/  
 // 1)- resolve & reject
 
 function savetoDb(data){
