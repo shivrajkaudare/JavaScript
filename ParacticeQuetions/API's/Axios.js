@@ -1,22 +1,24 @@
 
-let btn = document.querySelector("button");
+// let btn = document.querySelector("button");
 
-btn.addEventListener("click", async() => {
-    let op = getFacts();
-    let p = document.querySelector("#result");
-    p.innerText = op;
-})
+// btn.addEventListener("click", async () => {
+//     let fact = await getFacts();
+//     console.log(fact);
+//     let p = document.querySelector("#result");
+//     p.innerText = fact;
+// });
 
 
 let url = "https://catfact.ninja/fact";
 
- async function getFacts(){
+ async function getFacts() {
     try{
-        let resp = await axios.get(url);
-        let data = axios.data;
-        console.log(data);
+        let res = await axios.get(url);
+        return res.data.fact;
+        
     }
     catch(err){
         console.log("error :", err);
+        return "No fact found";
     }
  }
