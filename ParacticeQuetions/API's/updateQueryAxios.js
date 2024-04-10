@@ -12,6 +12,7 @@
     show(collArr);
  });
 
+
  function show(collArr){
     let list = document.querySelector("#list");
     list.innerText = "";
