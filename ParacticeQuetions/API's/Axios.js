@@ -1,13 +1,12 @@
 
-// let btn = document.querySelector("button");
+let btn = document.querySelector("button");
 
-// btn.addEventListener("click", async () => {
-//     let fact = await getFacts();
-//     console.log(fact);
-//     let p = document.querySelector("#result");
-//     p.innerText = fact;
-// });
-
+btn.addEventListener("click", async () => {
+    let fact = await getFacts();
+    console.log(fact);
+    let p = document.querySelector("#result");
+    p.innerText = fact;
+});
 
 let url = "https://catfact.ninja/fact";
 
