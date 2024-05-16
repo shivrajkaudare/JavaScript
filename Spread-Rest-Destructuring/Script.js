@@ -18,7 +18,6 @@ let newArrAvg = newArr.reduce ((prevVal, currVal) =>{
     return sum / newArr.length;
 
 });
-
 console.log(newArrAvg);
 
 
