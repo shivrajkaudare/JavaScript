@@ -1,4 +1,5 @@
 //Q.-1 Square and sum the array elements using the arrow function and then find the average of the array.
+
 // Ans- By using map() and reduce() methods of array.
 
 const arr1 = [3,5,6,8,12,32,64];
