@@ -1,44 +1,23 @@
 <!--Create an HTML form for Student Feedback Form with Name, Email ID, Mobile No., feedback (Not good, good, very good, excellent) and write a JavaScript to validate all field using Regular Expression-->
 
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Student Feedback Form</title>
-
-
 </head>
-
 <body>
-
 <h2>Student Feedback Form</h2>
 
 <form id="feedbackForm" onsubmit="return validateForm()">
 
     <label for="name">Name:</label>
-
     <input type="text" id="name" name="name" required><br><br>
-
-
-
     <label for="email">Email ID:</label>
-
     <input type="email" id="email" name="email" required><br><br>
-
-
-
     <label for="mobile">Mobile No.:</label>
-
     <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required><br><br>
-
-
-
     <label for="feedback">Feedback:</label>
 
     <select id="feedback" name="feedback" required>
@@ -54,13 +33,9 @@
         <option value="Excellent">Excellent</option>
 
     </select><br><br>
-
-
     <input type="submit" value="Submit">
-
 </form>
   <script src="index.js"></script>
-
 </body>
 
 </html>
