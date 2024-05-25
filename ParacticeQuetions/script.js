@@ -1,4 +1,4 @@
-r812
+
 // Q.-1create a new input button element on the page using javaScript only Set the text of button to "click me".
 
     let button = document.createElement("button");
