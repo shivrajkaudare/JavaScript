@@ -19,3 +19,7 @@ async function demo() {
   await getNum();
   getNum();
 }
+
+/*------------- Error handling with await-------------------*/
+
+// try and catch block is used in error handling ..
