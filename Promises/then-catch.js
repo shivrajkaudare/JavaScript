@@ -16,9 +16,18 @@ function savetoDB(data) {
   });
 }
 
-let request = savetoDB("Hello Dear JS lovers..");
+// let request = savetoDB("Hello Dear JS lovers..");
+// request
+//   .then(() => {
+//     console.log("Promise is resolved");
+//   })
+//   .catch(() => {
+//     console.log("Promise is rejected");
+//   });
 
-request
+// or
+
+savetoDB("Hello Dear JS lovers..")
   .then(() => {
     console.log("Promise is resolved");
   })
