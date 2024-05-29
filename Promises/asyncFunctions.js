@@ -9,7 +9,7 @@ function getNum() {
       let randomNum = Math.floor(Math.random * 10) + 1;
       console.log(randomNum);
       resolve("number is genereted");
-    });
+    }, 1000);
   });
 }
 
